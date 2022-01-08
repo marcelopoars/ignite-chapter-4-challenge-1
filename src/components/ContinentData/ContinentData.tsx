@@ -12,7 +12,7 @@ export function ContinentData() {
       flexDirection={["column", "column", "row"]}
       gap={[4, 4, 70]}
     >
-      <Text fontSize={[14, 16, 24]} textAlign={['center', 'center', 'left']} flex={1.3}>
+      <Text fontSize={[14, 16, 24]} flex={1.3}>
         A Europa é, por convenção, um dos seis continentes do mundo.
         Compreendendo a península ocidental da Eurásia, a Europa geralmente
         divide-se da Ásia a leste pela divisória de águas dos montes Urais, o

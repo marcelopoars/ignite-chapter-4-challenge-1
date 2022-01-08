@@ -1,5 +1,6 @@
 import { Flex } from "@chakra-ui/react";
 import { NextPage } from "next";
+import Head from "next/head";
 import {
   ContinentCarousel,
   Divider,
@@ -11,6 +12,10 @@ import {
 const Home: NextPage = () => {
   return (
     <Flex direction={"column"}>
+      <Head>
+        <title>World Trip</title>
+      </Head>
+
       <Header />
       <Hero />
       <TypesOfTripes />

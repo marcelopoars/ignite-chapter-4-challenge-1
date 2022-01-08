@@ -8,3 +8,5 @@ export * from "./ContinentCarousel/ContinentCarousel";
 export * from "./ContinentHero/ContinentHero";
 export * from "./ContinentData/ContinentData";
 export * from "./ContinentBigNumbers/ContinentBigNumbers";
+export * from "./ContinentCities/ContinentCities";
+export * from "./ContinentPopover/ContinentPopover";
